@@ -1,0 +1,14 @@
+# Project-specific overrides
+
+*.woff2 binary
+
+src/**/*.tsx linguist-detectable 
+*.md linguist-documentation
+
+examples/site/index.html linguist-vendored
+*.yaml linguist-detectable=false
+*.map linguist-generated
+*.sh text eol=lf
+src/*.ts linguist-detectable
+go.sum linguist-generated
+# eof 603b1178
